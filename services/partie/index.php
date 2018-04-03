@@ -31,12 +31,21 @@
     </header>
 
     <main role="main" class="inner cover">
-        <h1 class="cover-heading">Liste joueur</h1>
+        <h1 class="cover-heading">Liste partie</h1>
         <p class="lead">.</p>
         <hr>
-        <h1 class="cover-heading">Liste Partie</h1>
+        <h1 class="cover-heading"> Gestions partie </h1>
         <p class="lead"></p>
-
+        <form method="post" action="create.php">
+            <label>Nom : </label>
+            <input type="text" name="nom" maxlength="24">
+            <button></button>
+        </form>
+        <!--
+        <form method="post" action="delete.php">
+            <button></button>
+        </form>
+        -->
     </main>
 
     <footer class="mastfoot mt-auto">
