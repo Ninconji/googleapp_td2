@@ -1,0 +1,9 @@
+dispatch:
+  - url: "upjv-ccm-etu-002.appspot.com/"
+    service: front
+
+  - url: "*/utilisateur/*"
+    service: utilisateur
+
+  - url: "*/partie/*"
+    service: partie
